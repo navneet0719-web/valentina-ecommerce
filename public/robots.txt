@@ -1,0 +1,31 @@
+# VALENTINA — Women's Fashion Accessories (Demonstration Store)
+# Technical SEO configuration for search engine crawlers
+
+User-agent: *
+Allow: /
+Allow: /shop
+Allow: /new-arrivals
+Allow: /bestsellers
+Allow: /collections
+Allow: /collections/
+Allow: /products/
+Allow: /blog
+Allow: /blog/
+Allow: /about
+Allow: /contact
+Allow: /faq
+Allow: /shipping-policy
+Allow: /returns-refunds
+Allow: /privacy-policy
+Allow: /terms-and-conditions
+Allow: /disclaimer
+
+# Non-indexable transactional and user-specific routes
+Disallow: /cart
+Disallow: /checkout
+Disallow: /wishlist
+Disallow: /404
+Disallow: /*?search=
+Disallow: /*?sort=
+
+Sitemap: https://ais-pre-dcafvusuznjbb4z2mfr6ia-1025272406749.asia-southeast1.run.app/sitemap.xml
